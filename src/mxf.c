@@ -94,7 +94,7 @@ void MXF_WriteNodeList(MaxFlowPtr Ptr)
   printf("-----------------------------------------------------------------\n");
   for (i=1; i<=P->NodeListSize; i++)
   {
-    printf("%5d%4d%6d%6d%6d%6d%6d%10d\n",
+    printf("%5d%4d%6d%6d%6d%6d%6d%10d%10d%10d%10d\n",
            i,
            P->NodePtr[i].DLabel,
            P->NodePtr[i].Excess,
