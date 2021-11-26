@@ -8,5 +8,4 @@ for (i, file) in enumerate(all_files)
         run(`git mv $file $new_filename`)
     catch e 
     end
-    println("$file => $new_filename")
 end
