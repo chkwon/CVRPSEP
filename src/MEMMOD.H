@@ -5,7 +5,7 @@
 #ifndef _H_MEMMOD
 #define _H_MEMMOD
 
-#include <malloc.h>
+#include <stdlib.h>
 
 void* MemGet(int NoOfBytes);
 void* MemReGet(void *p, int NewNoOfBytes);
