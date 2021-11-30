@@ -20,6 +20,8 @@ void SortCheckStacks()
 
 void SortIVInc(int *Value, int n)
 {
+  if (n < 1) return;
+
   int i,j,StackSize,Left,Right,Tmp,KeyValue;
 
   SortCheckStacks();
@@ -101,6 +103,8 @@ void SortIVInc(int *Value, int n)
 
 void SortIVDec(int *Value, int n)
 {
+  if (n < 1) return;
+
   int i,j,StackSize,Left,Right,Tmp,KeyValue;
 
   SortCheckStacks();
@@ -183,6 +187,8 @@ void SortIVDec(int *Value, int n)
 
 void SortDVInc(double *Value, int n)
 {
+  if (n < 1) return;
+
   int i,j,StackSize,Left,Right;
   double Tmp,KeyValue;
 
@@ -266,6 +272,8 @@ void SortDVInc(double *Value, int n)
 
 void SortDVDec(double *Value, int n)
 {
+  if (n < 1) return;
+
   int i,j,StackSize,Left,Right;
   double Tmp,KeyValue;
 
@@ -348,6 +356,8 @@ void SortDVDec(double *Value, int n)
 
 void SortIndexIVInc(int *Index, int *Value, int n)
 {
+  if (n < 1) return;
+
   /* Sorts the indices in the Index vector so that the
      k'th smallest value in the Value vector is Value[Index[k]]. */
 
@@ -432,6 +442,8 @@ void SortIndexIVInc(int *Index, int *Value, int n)
 
 void SortIndexIVDec(int *Index, int *Value, int n)
 {
+  if (n < 1) return;
+
   int i,j,StackSize,Left,Right,Tmp;
   int KeyValue;
 
@@ -513,6 +525,8 @@ void SortIndexIVDec(int *Index, int *Value, int n)
 
 void SortIndexDVInc(int *Index, double *Value, int n)
 {
+  if (n < 1) return;
+
   /* Sorts the indices in the Index vector so that the
      k'th smallest value in the Value vector is Value[Index[k]]. */
 
@@ -597,6 +611,8 @@ void SortIndexDVInc(int *Index, double *Value, int n)
 
 void SortIndexDVDec(int *Index, double *Value, int n)
 {
+  if (n < 1) return;
+  
   /* Sorts the indices in the Index vector so that the
      k'th largest value in the Value vector is Value[Index[k]]. */
 
