@@ -4487,6 +4487,9 @@ else
 fi
 
 
+LDFLAGS="-no-undefined $LDFLAGS"
+
+
 
 
   if test -n "$ac_tool_prefix"; then
