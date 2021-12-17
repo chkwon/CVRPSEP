@@ -1,7 +1,7 @@
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
 
-AC_PREREQ([2.71])
+AC_PREREQ([2.69])
 AC_INIT(CVRPSEP, 0.1, chkwon@gmail.com)
 AC_CONFIG_SRCDIR([src/binpack.h])
 AC_CONFIG_HEADERS([config.h])
@@ -15,6 +15,9 @@ AC_CONFIG_FILES([Makefile src/Makefile])
 
 # Checks for programs.
 AC_PROG_CC
+LDFLAGS="-no-undefined $LDFLAGS"
+AC_SUBST([LDFLAGS])
+
 AM_PROG_AR
 LT_INIT 
 
