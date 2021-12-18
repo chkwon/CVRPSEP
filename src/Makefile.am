@@ -1,0 +1,2 @@
+lib_LTLIBRARIES=libcvrpsep.la
+libcvrpsep_la_SOURCES=basegrph.c basegrph.h binpack.c binpack.h blocks.c blocks.h brnching.c brnching.h capsep.c capsep.h cnstrmgr.c cnstrmgr.h combsep.c combsep.h compcuts.c compcuts.h compress.c compress.h cutbase.c cutbase.h fcapfix.c fcapfix.h fcisep.c fcisep.h fcits.c fcits.h glmsep.c glmsep.h grsearch.c grsearch.h hpmstar.c hpmstar.h htoursep.c htoursep.h intap.c intap.h memmod.c memmod.h mstarsep.c mstarsep.h mxf.c mxf.h newhtour.c newhtour.h sort.c sort.h strcomb.c strcomb.h strngcmp.c strngcmp.h twomatch.c twomatch.h 
